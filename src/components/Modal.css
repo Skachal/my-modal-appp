@@ -1,0 +1,356 @@
+/* modal.css */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    color: slategray;
+  }
+  
+  .modal-container {
+    background: white;
+    border-radius: 8px;
+    width: 800px;
+    padding: 20px;
+   
+    position: relative;
+  }
+  .one{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-bottom: 10px;
+    height: 20px;
+    align-items: center;
+    
+} 
+.title{
+  font-weight: 400;
+}
+.close-button{
+  color: #007bff;
+  font-size: 40px;
+  background: none;
+  border: none;
+}
+.close-button:hover{
+  color: #0056b3;
+}
+.line{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    right: 0px;
+}
+.two {
+    display: flex; /* Размещаем элементы по вертикали */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+  }
+  
+  .school {
+   
+    color: slategray; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    border: 1px solid rgb(162, 171, 181);
+    border-radius: 5px;
+    width: 170px;
+    height: 33px;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .school p{
+    font-size: 18px; /* Размер шрифта */
+    font-weight: 200;
+  }
+  .colorrr{
+    display: flex; /* Размещаем элементы по вертикали */
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .colorr {
+    font-size: 16px; /* Размер шрифта */
+  }
+  
+  .color-input {
+    margin-left: 10px; /* Отступ слева от инпута */
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем обводку */
+    width: 30px; /* Ширина инпута */
+    height: 30px; /* Высота инпута */
+    cursor: pointer; /* Курсор при наведении */
+    padding: 0; /* Убираем отступы */
+  }
+  .three{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+  .label {
+    font-size: 16px; /* Размер шрифта */
+    color: rgb(122, 122, 189); /* Цвет текста */
+    margin-bottom: 5px; /* Отступ снизу */
+    display: block; /* Переносим на новую строку */
+  }
+  
+  .select-course {margin-bottom: 15px; /* Отступ снизу */
+    padding: 8px; /* Отступ внутри */
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+    border-radius: 5px; /* Скругление углов */
+    width: 35%; /* Ширина 100% */
+    height: 40px;
+  }
+  
+  .chas-input-group {
+    display: flex; /* Расположение в строку */
+    align-items: center; /* Вертикальное выравнивание по центру */
+
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+  
+    width: 30%;
+    height: 40px;
+    border-radius: 5px; /* Скругление углов */
+  }
+  
+  .button-m {
+    padding: 5px 10px; /* Отступ внутри */
+    border: none; /* Рамка */
+    background:  #007bff; /* Цвет фона */
+    color: #fff;
+    cursor: pointer; /* Курсор при наведении */
+    height: 100%;
+    width: 20%;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .button-m:hover {
+    background-color: #0056b3; /* Цвет при наведении для кнопок с днями */
+    color: white; /* Цвет текста при наведении */
+}
+  .button-p:hover {
+    background-color: #0056b3; /* Цвет при наведении для кнопок с днями */
+    color: white; /* Цвет текста при наведении */
+}
+  .button-p {
+    padding: 5px 10px; /* Отступ внутри */
+    border: none;/* Рамка */
+    background:  #007bff; /* Цвет фона */
+    color: #fff;
+    cursor: pointer; /* Курсор при наведении */
+    height: 100%;
+    width: 20%;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .total-hours {
+    font-size: 16px; /* Размер шрифта */
+    display: flex; /* Расположение в строку */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    width: 45%;
+    justify-content: center;
+}
+  
+  .chas {
+    background: rgb(241, 241, 241);
+    border-left: 1px solid rgb(200, 200, 200); /* Рамка */
+    width: 25%;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+  
+  .date-group {
+    display: flex; /* Расположение в строку */
+
+  }
+  .input-group{
+   
+    border-radius: 3px;
+    height: 40px;
+  }
+  .date-input-l {
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+   border-radius: 5px 0px 0px 5px; /* Скругление углов */
+   padding: 5px; /* Отступ внутри */
+   width: 80px; /* Ширина инпута */
+   height: 30px;
+}
+
+.date-input-r {
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+   border-radius:0px 5px 5px 0px; /* Скругление углов */
+   padding: 5px; /* Отступ внутри */
+   width: 80px; /* Ширина инпута */
+   height: 30px;
+}
+.date-label{
+    display: flex;
+    width: 30px;
+    height: 42px;
+    background: rgb(187, 188, 188);
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+
+
+.four {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+   
+}
+
+.three-day, .two-day {
+    background-color: #007bff; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 10px 0; /* Отступы внутри кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    width: 15%;
+    height: 100%;
+    border:none;
+}
+.three-day{
+  border-radius: 5px 0px 0px 5px;
+}
+.three-day:hover, .two-day:hover {
+    background-color: #0056b3; /* Цвет при наведении */
+}
+
+.day-label {
+    display: flex; /* Расположение в строку */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    width: 10%;
+    height: 100%;
+    background-color: transparent; /* Прозрачный фон по умолчанию */
+   border: none;
+    cursor: pointer; /* Курсор при наведении на кнопку */
+}
+
+.day-label.active {
+    background-color: #007bff; /* Цвет фона для активных дней */
+    color: white; /* Цвет текста для активных дней */
+    font-weight: bold; /* Жирный текст для активных дней */
+}
+
+.day-label:hover {
+    background-color: #0056b3; /* Цвет при наведении для кнопок с днями */
+    color: white; /* Цвет текста при наведении */
+}
+
+
+
+
+
+.six {
+  display: flex; /* Расположение элементов в строку */
+  justify-content: space-between; /* Промежутки между элементами */
+  margin-top: 5px; /* Отступ снизу */
+  width: 100%;
+  padding: 0px;
+}
+.select-prepod{
+  width: 69%;
+   /* Отступ снизу */
+    padding: 8px; /* Отступ внутри */
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+    border-radius: 5px; /* Скругление углов */
+    height: 40px;
+    color: rgb(116, 116, 116);
+}
+.select-auditoria{
+  color: rgb(116, 116, 116);
+  width: 27%;
+ /* Отступ снизу */
+    padding: 8px; /* Отступ внутри */
+    border: 1px solid rgb(200, 200, 200); /* Рамка */
+    border-radius: 5px; /* Скругление углов */
+    height: 40px;
+  
+}
+.select-prepod:disabled,
+.select-auditoria:disabled {
+    background-color: #e9ecef; /* Цвет фона для отключенных элементов */
+    color: #6c757d; /* Цвет текста для отключенных элементов */
+    cursor: not-allowed; /* Курсор при наведении */
+}
+
+
+.five {
+  display: flex; /* Расположение элементов в строку */
+  justify-content: space-between; /* Промежутки между элементами */
+  margin-top: 20px;
+}
+.red-warning{
+  display: flex;
+  align-items: center;
+  height: 30px;
+    background-color: #f8d7da; /* Цвет фона для предупреждений */
+    color: #5f5f5f; /* Цвет текста для предупреждений */
+    padding: 10px; /* Отступы */
+    border: none; /* Рамка */
+     margin-top: 20px;
+     margin-bottom: 10px;
+  }
+  .red-warning span{
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+  }
+.buttons{
+  display: flex;
+  justify-content: end;
+  margin-top: 40px; /* Отступ сверху */
+}
+.closed-button{
+  background: none; /* Цвет фона кнопки */
+  color: rgb(84, 84, 84); /* Цвет текста */
+  padding: 10px 15px; /* Отступы внутри кнопки */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Скругление углов */
+  cursor: pointer; /* Курсор при наведении */
+  width: 10%; /* Ширина кнопки */
+  margin-right: 20px;
+}
+.closed-button:hover {
+  color: #f96975; /* Цвет фона при наведении */
+}
+.add-schedule-button {
+  background: none; /* Цвет фона кнопки */
+  color: rgb(84, 84, 84); /* Цвет текста */
+  padding: 10px 15px; /* Отступы внутри кнопки */
+  border: 1px solid; /* Убираем рамку */
+  border-radius: 5px; /* Скругление углов */
+  cursor: pointer; /* Курсор при наведении */
+  width: 25%; /* Ширина кнопки */
+ 
+}
+
+.add-schedule-button:hover {
+  color: #0056b3; /* Цвет фона при наведении */
+}
+
+
+
+
+
+
+
+
+
+
